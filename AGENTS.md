@@ -50,8 +50,9 @@ reinterpret, or change Commons.
 - Write direct, clear Markdown for people and assisting agents.
 - Use relative links for repository content and exact links for adopted external
   releases.
-- Use lowercase kebab-case within content directories and uppercase conventional
-  names for repository-wide policy files.
+- Use lowercase kebab-case within content directories, except for conventional
+  directory indexes named `README.md`; use uppercase conventional names for
+  repository-wide policy files.
 - Separate principle, experience, proposal, validated finding, example, and open
   question.
 - Use fictional public examples unless real material is explicitly authorized,

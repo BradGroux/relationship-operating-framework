@@ -53,7 +53,8 @@ for a proposal or question. Use a pull request when the change is prepared.
   authorized, safely sourced real material.
 
 Use uppercase filenames for repository-wide policies and lowercase kebab-case
-inside content directories. Name dated review and research records
+inside content directories. Conventional directory indexes are named
+`README.md`. Name dated review and research records
 `<subject>-<record-type>-YYYY-MM-DD.md`. Reviewer names, agent or model names,
 tool names, and internal platform names do not belong in public filenames.
 

@@ -48,8 +48,8 @@ requires:
    and unresolved questions;
 2. classification against the charter and adopted Commons revision;
 3. a prepared pull request updating every affected canonical document;
-4. independent practical, adversarial, and coherence review against an exact
-   candidate commit;
+4. independent practical, adversarial, coherence, and public-hygiene review
+   against an exact candidate commit;
 5. a public disposition of every finding and material dissent; and
 6. explicit steward approval in an identifiable semantic release.
 

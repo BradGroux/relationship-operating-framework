@@ -95,10 +95,12 @@ neither framework absorbs the other.
 
 ## Status and limits
 
-Version 1.0.0 is the approved initial documentation release, dated 2026-08-03.
-It provides a practical, people-first baseline and adopts Commons v1.0.0. It has
-not been validated through longitudinal real-world study and does not certify a
-person, team, tool, or implementation.
+Version 1.0.0 is the prepared initial documentation baseline, dated 2026-08-03.
+It becomes the approved public release only when the repository's immutable
+annotated `v1.0.0` tag identifies the reviewed and merged tree. The baseline
+provides a practical, people-first starting point and adopts Commons v1.0.0. It
+has not been validated through longitudinal real-world study and does not
+certify a person, team, tool, or implementation.
 
 The examples are fictional and illustrative. Documentation review can show
 clarity, coherence, misuse resistance, and publication hygiene; it cannot prove
