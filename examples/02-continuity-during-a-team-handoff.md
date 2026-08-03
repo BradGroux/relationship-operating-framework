@@ -21,6 +21,32 @@ work that is unnecessary for organizational continuity.
 The team wants the incoming coordinator, Casey, to continue the nonprofit's
 commitments.
 
+## Scenario decision view
+
+```mermaid
+flowchart LR
+    O["Organizational promises and<br/>authorized project context"]
+    P["Private personal context"]
+    H["Taylor separates what the<br/>handoff legitimately needs"]
+    X["Exclude from the handoff"]
+    C{"Does Jordan welcome an<br/>introduction to Casey?"}
+    I["Introduce Casey with minimum<br/>authorized context"]
+    N["No relationship transfer;<br/>honor existing promises through<br/>the authorized channel"]
+    U["Jordan controls any<br/>future engagement"]
+
+    O --> H
+    P --> X
+    H --> C
+    C -- "Yes" --> I
+    C -- "No or no response" --> N
+    I --> U
+    N --> U
+```
+
+This is a fictional handoff decision, not a universal process. Organizational
+commitments can continue without transferring private context, intimacy, or an
+obligation to engage with the successor.
+
 ## Applying the framework
 
 ### Separate personal and organizational context

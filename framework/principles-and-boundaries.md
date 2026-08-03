@@ -6,6 +6,34 @@ This document states the product-local principles needed to practice
 relationship stewardship. It explains Relationship; it does not restate or
 replace Commons.
 
+## Stewardship view
+
+```mermaid
+flowchart LR
+    S["Human relationship stewardship"]
+    C["Truthful continuity"]
+    K["Commitments before new asks"]
+    N["Contribution without debt"]
+    E["Re-engagement as invitation"]
+    B["Current consent and boundaries"]
+    X["Necessary, proportionate context"]
+    R["Repair, closure, or restraint"]
+    H["Accountable human judgment"]
+
+    C --- S
+    K --- S
+    N --- S
+    E --- S
+    S --- B
+    S --- X
+    S --- R
+    S --- H
+```
+
+These connected concerns describe what responsible stewardship keeps in view.
+They are not stages, scores, database entities, or a required lifecycle. Their
+meaning comes from the principles below.
+
 ## People are not representations
 
 A person is not their profile, contact record, role, message history, inferred

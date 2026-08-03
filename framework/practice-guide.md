@@ -39,6 +39,32 @@ Completion means the accountable person can make a responsible decision. It
 does not require contact, a response, a meeting, a score, or a measurable
 commercial outcome.
 
+```mermaid
+flowchart LR
+    subgraph Q["Review together — no required order"]
+        R["Shared history and<br/>truthful context"]
+        O["Commitments, repair,<br/>or closure already owed"]
+        W["Current consent,<br/>preferences, and boundaries"]
+        V["Present relevance and<br/>contribution without debt"]
+        C["Minimum continuity<br/>worth retaining"]
+    end
+
+    D{"Accountable person decides<br/>the exact situation"}
+    A["Follow through, contribute,<br/>reconnect, or repair"]
+    N["Wait, close, take no action,<br/>or do not contact"]
+
+    R --> D
+    O --> D
+    W --> D
+    V --> D
+    C --> D
+    D --> A
+    D --> N
+```
+
+The questions converge on human judgment rather than a score or automated next
+step. Either action or restraint can be responsible.
+
 ## Preserve truthful continuity
 
 When continuity is needed:
@@ -147,6 +173,28 @@ Approval must apply to the exact external action. A general instruction, batch
 button, lack of objection, or past approval does not authorize a new recipient,
 message, commitment, or transaction.
 
+```mermaid
+flowchart LR
+    subgraph A["Bounded assistance"]
+        C["Organize authorized<br/>context"]
+        D["Surface possible commitments,<br/>check, or draft"]
+        B["Boundary: no autonomous contact,<br/>scoring, manipulation, or transaction"]
+        C --> D
+        D --- B
+    end
+
+    H{"Named person reviews sources,<br/>consent, authority, and exact action"}
+    R["Correct, narrow, wait, decline,<br/>take no action, or do not contact"]
+    P["Person chooses a separately<br/>controlled external action"]
+
+    D --> H
+    H --> R
+    H --> P
+```
+
+Assistance ends at preparation. A person retains the contact decision,
+commitment authority, and any separately controlled external action.
+
 ## Reflect without claiming proof
 
 After a material interaction or restraint decision, ask:
@@ -161,6 +209,30 @@ After a material interaction or restraint decision, ask:
 Record an observation as experience, not universal proof. Follow the [research
 and evidence guidance](../research/README.md) before promoting a lesson into
 framework doctrine.
+
+```mermaid
+flowchart LR
+    subgraph O["Observe separately"]
+        C["Commitments and<br/>follow-through"]
+        B["Consent, privacy,<br/>and boundaries"]
+        A["Agency, contribution,<br/>and burden"]
+        X["Context to correct,<br/>retain, restrict, or remove"]
+    end
+
+    J["Accountable interpretation<br/>with limits and uncertainty"]
+    L["Local practice change,<br/>research question, or proposal"]
+    S["Prohibited: relationship-health<br/>score or ranking of people"]
+
+    C --> J
+    B --> J
+    A --> J
+    X --> J
+    J --> L
+    J -. "must not collapse into" .-> S
+```
+
+Learning improves the steward's practice. It does not convert another person's
+response, reach, role, or commercial value into a measure of human worth.
 
 ## Proposals, not current requirements
 

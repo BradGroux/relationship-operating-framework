@@ -9,7 +9,9 @@ The project uses semantic versioning for approved releases.
 
 - Initial charter for independent, people-first relationship stewardship.
 - Exact adoption of Open Framework Commons `v1.0.0` at release commit
-  `27870fb1d57d951b9ef5a3a86f33ef068ee557da`.
+  `a0f0d384e9010a65d1a21a324b4c912433d5e031`, refreshed from the prior
+  `27870fb1d57d951b9ef5a3a86f33ef068ee557da` release commit through coordinated
+  documentation republication.
 - Product-local principles for continuity, commitments, consent, context,
   contribution without debt, re-engagement, repair, human judgment, and
   tool-replaceable practice.
@@ -18,6 +20,8 @@ The project uses semantic versioning for approved releases.
   conformance systems, and the Influence Operating Framework's local method.
 - Fictional examples for re-engagement, team handoff, and assisted commitment
   follow-through.
+- Focused inline visualizations for framework orientation, stewardship concerns,
+  accountable decisions, agent boundaries, learning, and each fictional example.
 - Research guidance separating principle, experience, proposal, and validated
   finding.
 - Lightweight governance, contribution, conduct, security, citation, and public

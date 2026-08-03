@@ -51,6 +51,10 @@ for a proposal or question. Use a pull request when the change is prepared.
   later change.
 - Use fictional examples unless the steward explicitly approves necessary,
   authorized, safely sourced real material.
+- Add an inline Mermaid diagram only when it materially clarifies a relationship,
+  decision, or authority boundary. Explain it in adjacent prose, keep it
+  non-normative where appropriate, and commit no generated image export or
+  diagram metadata.
 
 Use uppercase filenames for repository-wide policies and lowercase kebab-case
 inside content directories. Conventional directory indexes are named
@@ -80,6 +84,8 @@ to verify:
 - exact Commons tag and peeled commit references;
 - Relationship-versus-Influence boundaries;
 - proposal labels and example provenance;
+- Mermaid fence integrity, rendering, visual legibility, and consistency with
+  the surrounding prose;
 - public filenames, metadata, claims, and privacy hygiene; and
 - any check that could not run and the resulting risk.
 

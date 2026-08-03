@@ -85,9 +85,11 @@ A material release receives four independent documentation reviews:
 2. **Adversarial misuse** — could the guidance authorize transactional,
    manipulative, invasive, scored, or autonomous treatment of people?
 3. **Canonical coherence** — do charter, principles, practice, glossary,
-   examples, research, and governance agree without absorbing Influence?
+   examples, research, governance, and explanatory visuals agree without
+   absorbing Influence or creating a lifecycle, score, or system?
 4. **Public hygiene** — are links, metadata, provenance, attribution, claims,
-   personal information, local paths, and private history safe to publish?
+   personal information, local paths, private history, and rendered diagrams
+   safe and usable to publish?
 
 Each public report states its date, generic reviewer role, exact reviewed
 commit, verdict, finding counts, evidence, verification, and limitations. Public
@@ -110,8 +112,11 @@ corrected candidate.
 
 ## Releases
 
-Published versions use semantic versioning and immutable annotated Git tags. A
-release identifies:
+Published versions use semantic versioning and annotated Git tags. Tags are
+immutable by default. A same-version documentation republication requires an
+explicit steward instruction, a public issue, disclosure of the prior and new
+targets, complete review of the corrected candidate, a lease-protected tag
+move, and refreshed release notes. A release identifies:
 
 - the exact repository commit and date;
 - the adopted Commons tag and peeled commit;
@@ -132,9 +137,11 @@ unresolved material finding or substitutes for steward approval.
 ### Version 1.0.0 baseline
 
 - **Effective date:** 2026-08-03
-- **Release form:** immutable annotated tag `v1.0.0`
+- **Release form:** annotated tag `v1.0.0`; documentation-only republication
+  authorized through [issue 3](https://github.com/BradGroux/relationship-operating-framework/issues/3)
+  and [issue 4](https://github.com/BradGroux/relationship-operating-framework/issues/4)
 - **Commons adoption:** `v1.0.0` at
-  `27870fb1d57d951b9ef5a3a86f33ef068ee557da`
+  `a0f0d384e9010a65d1a21a324b4c912433d5e031`
 - **Known limitations:** no longitudinal real-world validation; fictional
   examples; no domain, legal, privacy, safeguarding, organizational, or
   professional certification; first-user, first-job, lifecycle, domain-model,
