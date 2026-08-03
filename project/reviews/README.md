@@ -62,17 +62,20 @@ Framework candidate reviewed on 2026-08-03:
 | [Public hygiene](v1.0.0-republication-public-hygiene-review-2026-08-03.md) | NO-GO | 1 Material |
 | [Corrected-candidate coherence and public hygiene](v1.0.0-republication-corrected-review-2026-08-03.md) | GO | None; prior Material resolved |
 | [Commons adoption refresh](v1.0.0-commons-adoption-refresh-review-2026-08-03.md) | GO | None |
+| [Concurrent integration](v1.0.0-concurrent-integration-review-2026-08-03.md) | GO | None; prior Minor resolved |
 
 The [republication review disposition](v1.0.0-visualization-review-disposition-2026-08-03.md)
 records the public-hygiene finding, the corrective documentation, and the
 passing corrected-candidate reruns. The final replacement tag target must be
-recorded in the refreshed GitHub release after merge-tree comparison.
+recorded in the refreshed GitHub release after merge-tree comparison. The
+concurrent-integration review authorizes pull-request merge for its exact
+reviewed commit and tree.
 
 The framework and record candidates were reviewed before the coordinated
 Commons-pin refresh merged at
 `6a255a8ded7d4cb86a9584b46e7694213019264f`. Their framework meaning remains
-unchanged; the combined branch requires a separate exact-commit integration
-review before pull-request merge.
+unchanged; the combined branch passed separate exact-commit public-hygiene and
+canonical-coherence integration reviews before pull-request merge.
 
 ## Coordinated Open Framework Commons v1.0.0 pin refresh
 
