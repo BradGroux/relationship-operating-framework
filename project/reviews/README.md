@@ -58,11 +58,12 @@ Framework candidate reviewed on 2026-08-03:
 | [Adversarial misuse](v1.0.0-visualization-adversarial-misuse-review-2026-08-03.md) | GO | None |
 | [Canonical coherence](v1.0.0-visualization-canonical-coherence-review-2026-08-03.md) | GO | None |
 | [Public hygiene](v1.0.0-republication-public-hygiene-review-2026-08-03.md) | NO-GO | 1 Material |
+| [Corrected-candidate coherence and public hygiene](v1.0.0-republication-corrected-review-2026-08-03.md) | GO | None; prior Material resolved |
 | [Commons adoption refresh](v1.0.0-commons-adoption-refresh-review-2026-08-03.md) | GO | None |
 
 The [republication review disposition](v1.0.0-visualization-review-disposition-2026-08-03.md)
 records the public-hygiene finding, the corrective documentation, and the
-required corrected-candidate reruns. The final replacement tag target must be
+passing corrected-candidate reruns. The final replacement tag target must be
 recorded in the refreshed GitHub release after merge-tree comparison.
 
 ## Initial version 1.0.0 publication
