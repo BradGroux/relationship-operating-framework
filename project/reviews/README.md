@@ -44,6 +44,18 @@ the reviewed commit, verdict, severity, finding substance, or limitations.
 `GO` requires no unresolved Blocker or Material finding. A separate disposition
 records the steward's decision and preserves material dissent.
 
+## Coordinated Open Framework Commons v1.0.0 pin refresh
+
+Corrected candidate reviewed on 2026-08-03:
+
+- **Commit:** `3f93ee84f8bb069c49668c482497c6a043a68522`
+- **Tree:** `8eb6ce9910c34b3d0a80feab6a52e55063401801`
+
+The consolidated
+[coordinated refresh review](open-framework-commons-v1.0.0-coordinated-refresh-review-2026-08-03.md)
+records separate standards and specification passes. Both returned GO with no
+open findings after one Material release-history omission was corrected.
+
 ## Version 1.0.0 record
 
 Corrected candidate reviewed on 2026-08-03:
