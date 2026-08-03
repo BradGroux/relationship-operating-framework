@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use the Relationship Operating Framework, please cite the version you
+  consulted.
+title: Relationship Operating Framework
+type: software
+version: 1.0.0
+date-released: 2026-08-03
+authors:
+  - family-names: Groux
+    given-names: Brad
+repository-code: https://github.com/BradGroux/relationship-operating-framework
+url: https://github.com/BradGroux/relationship-operating-framework
+license: MIT
+abstract: >-
+  An open documentation framework for long-term relationship stewardship by
+  people, teams, and bounded assisting agents.
+keywords:
+  - relationship stewardship
+  - continuity
+  - commitments
+  - consent
+  - human judgment
