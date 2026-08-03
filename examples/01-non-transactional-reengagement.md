@@ -22,6 +22,28 @@ An assisting tool can find the old promise in Morgan's authorized project
 notes. It cannot establish whether the old invitation still reflects Riley's
 current preference.
 
+## Scenario decision view
+
+```mermaid
+flowchart LR
+    P["Old promise and prior<br/>subject-specific invitation"]
+    H["Morgan verifies the source,<br/>current relevance, and channel"]
+    D{"Is one proportionate contact<br/>currently warranted?"}
+    W["Wait or do not contact"]
+    M["One plain message:<br/>close the promise, no new ask,<br/>no automated retry"]
+    U["Response and relationship<br/>outcome remain unknown"]
+
+    P --> H
+    H --> D
+    D -- "No or uncertain" --> W
+    D -- "Yes" --> M
+    W --> U
+    M --> U
+```
+
+This view shows Morgan's bounded decision, not a re-engagement sequence or a
+claimed result. The old invitation is context to review, not permanent consent.
+
 ## Applying the framework
 
 ### What relationship actually exists?

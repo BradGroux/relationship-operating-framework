@@ -37,6 +37,30 @@ Then use:
 - [Public review records](project/reviews/README.md) for exact-commit review
   evidence and its limits.
 
+## How the framework fits together
+
+```mermaid
+flowchart TD
+    C["Charter<br/>purpose, scope, and authority"]
+    P["Principles and boundaries<br/>Relationship-specific commitments"]
+    G["Practice guide<br/>questions and accountable decisions"]
+    E["Fictional examples<br/>illustrative choices"]
+    X["Glossary<br/>necessary terms"]
+    R["Research and evidence<br/>bounded learning and proposals"]
+    V["Governance<br/>controlled change and release"]
+
+    C --> P
+    P --> G
+    G --> E
+    X --- P
+    R -. "may inform a proposal" .-> V
+    V -. "controls canonical change" .-> C
+```
+
+The solid reading path moves from authority to practical use; fictional examples
+illustrate the guide but never amend it. Dotted lines show that research may
+inform a governed proposal but cannot change canonical guidance by itself.
+
 ## The practice in one minute
 
 Before acting in a relationship, ask:
@@ -95,12 +119,11 @@ neither framework absorbs the other.
 
 ## Status and limits
 
-Version 1.0.0 is the prepared initial documentation baseline, dated 2026-08-03.
-It becomes the approved public release only when the repository's immutable
-annotated `v1.0.0` tag identifies the reviewed and merged tree. The baseline
-provides a practical, people-first starting point and adopts Commons v1.0.0. It
-has not been validated through longitudinal real-world study and does not
-certify a person, team, tool, or implementation.
+Version 1.0.0 is the approved initial documentation baseline, dated 2026-08-03.
+Its annotated `v1.0.0` tag identifies the reviewed and merged release tree. The
+baseline provides a practical, people-first starting point and adopts Commons
+v1.0.0. It has not been validated through longitudinal real-world study and
+does not certify a person, team, tool, or implementation.
 
 The examples are fictional and illustrative. Documentation review can show
 clarity, coherence, misuse resistance, and publication hygiene; it cannot prove

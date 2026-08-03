@@ -9,7 +9,8 @@ The project uses semantic versioning for approved releases.
 
 - Initial charter for independent, people-first relationship stewardship.
 - Exact adoption of Open Framework Commons `v1.0.0` at release commit
-  `a0f0d384e9010a65d1a21a324b4c912433d5e031`.
+  `a0f0d384e9010a65d1a21a324b4c912433d5e031`, refreshed from the prior
+  `27870fb1d57d951b9ef5a3a86f33ef068ee557da` release commit.
 - Product-local principles for continuity, commitments, consent, context,
   contribution without debt, re-engagement, repair, human judgment, and
   tool-replaceable practice.
@@ -18,23 +19,30 @@ The project uses semantic versioning for approved releases.
   conformance systems, and the Influence Operating Framework's local method.
 - Fictional examples for re-engagement, team handoff, and assisted commitment
   follow-through.
+- Focused inline visualizations for framework orientation, stewardship concerns,
+  accountable decisions, agent boundaries, learning, and each fictional example.
 - Research guidance separating principle, experience, proposal, and validated
   finding.
 - Lightweight governance, contribution, conduct, security, citation, and public
   review foundations.
 
-### Coordinated republication
+### Republication history
 
-The Commons `v1.0.0` pin moved from
-`27870fb1d57d951b9ef5a3a86f33ef068ee557da` to
-`a0f0d384e9010a65d1a21a324b4c912433d5e031`. This corrects the adopted release
-identity without changing Relationship's method, meaning, or authority.
-Relationship `v1.0.0` will be republished only after this correction is reviewed
-and merged. Before replacement, the product's annotated `v1.0.0` tag object
-is `24290489bd59fb80d27a16c8360b1f41263310f9` and peels to
-`ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`; both remain release evidence.
-The steward-authorized replacement is a bounded correction, not a general
-change to the normal immutable-tag rule.
+The original Relationship `v1.0.0` tag object
+`24290489bd59fb80d27a16c8360b1f41263310f9` peeled to
+`ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`.
+
+A coordinated Commons-pin correction then republished `v1.0.0` at
+`6a255a8ded7d4cb86a9584b46e7694213019264f` through tag object
+`b8d135dc6ab267a2a07fead0f55668ccd007ca72`. That correction changed no
+Relationship method, meaning, or authority.
+
+The visualization documentation republication supersedes that intermediate
+target only after its merged tree is compared with reviewed framework candidate
+`fec214099ea6479a675529b85657f429a6e3b3b5` and all affected reviews pass. The
+final replacement target is recorded in the refreshed GitHub release. These are
+bounded owner-authorized documentation corrections, not a general change to the
+normal immutable-tag rule.
 
 ### Known limits
 

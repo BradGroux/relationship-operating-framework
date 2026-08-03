@@ -44,6 +44,39 @@ the reviewed commit, verdict, severity, finding substance, or limitations.
 `GO` requires no unresolved Blocker or Material finding. A separate disposition
 records the steward's decision and preserves material dissent.
 
+## Version 1.0.0 documentation republication
+
+Framework candidate reviewed on 2026-08-03:
+
+- **Commit:** `fec214099ea6479a675529b85657f429a6e3b3b5`
+- **Tree:** `5d7b9ada117c0b6f685fec4cadf234acdd08d9ae`
+- **Immediately prior published target:**
+  `6a255a8ded7d4cb86a9584b46e7694213019264f`
+- **Original published target:** `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
+
+| Perspective | Verdict | Findings |
+|---|---|---|
+| [Practical application](v1.0.0-visualization-practical-application-review-2026-08-03.md) | GO | None |
+| [Adversarial misuse](v1.0.0-visualization-adversarial-misuse-review-2026-08-03.md) | GO | None |
+| [Canonical coherence](v1.0.0-visualization-canonical-coherence-review-2026-08-03.md) | GO | None |
+| [Public hygiene](v1.0.0-republication-public-hygiene-review-2026-08-03.md) | NO-GO | 1 Material |
+| [Corrected-candidate coherence and public hygiene](v1.0.0-republication-corrected-review-2026-08-03.md) | GO | None; prior Material resolved |
+| [Commons adoption refresh](v1.0.0-commons-adoption-refresh-review-2026-08-03.md) | GO | None |
+| [Concurrent integration](v1.0.0-concurrent-integration-review-2026-08-03.md) | GO | None; prior Minor resolved |
+
+The [republication review disposition](v1.0.0-visualization-review-disposition-2026-08-03.md)
+records the public-hygiene finding, the corrective documentation, and the
+passing corrected-candidate reruns. The final replacement tag target must be
+recorded in the refreshed GitHub release after merge-tree comparison. The
+concurrent-integration review authorizes pull-request merge for its exact
+reviewed commit and tree.
+
+The framework and record candidates were reviewed before the coordinated
+Commons-pin refresh merged at
+`6a255a8ded7d4cb86a9584b46e7694213019264f`. Their framework meaning remains
+unchanged; the combined branch passed separate exact-commit public-hygiene and
+canonical-coherence integration reviews before pull-request merge.
+
 ## Coordinated Open Framework Commons v1.0.0 pin refresh
 
 Corrected candidate reviewed on 2026-08-03:
@@ -56,7 +89,7 @@ The consolidated
 records separate standards and specification passes. Both returned GO with no
 open findings after one Material release-history omission was corrected.
 
-## Version 1.0.0 record
+## Initial version 1.0.0 publication
 
 Corrected candidate reviewed on 2026-08-03:
 

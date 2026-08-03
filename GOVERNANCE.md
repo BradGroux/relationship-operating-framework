@@ -85,9 +85,11 @@ A material release receives four independent documentation reviews:
 2. **Adversarial misuse** — could the guidance authorize transactional,
    manipulative, invasive, scored, or autonomous treatment of people?
 3. **Canonical coherence** — do charter, principles, practice, glossary,
-   examples, research, and governance agree without absorbing Influence?
+   examples, research, governance, and explanatory visuals agree without
+   absorbing Influence or creating a lifecycle, score, or system?
 4. **Public hygiene** — are links, metadata, provenance, attribution, claims,
-   personal information, local paths, and private history safe to publish?
+   personal information, local paths, private history, and rendered diagrams
+   safe and usable to publish?
 
 Each public report states its date, generic reviewer role, exact reviewed
 commit, verdict, finding counts, evidence, verification, and limitations. Public
@@ -110,8 +112,11 @@ corrected candidate.
 
 ## Releases
 
-Published versions use semantic versioning and immutable annotated Git tags. A
-release identifies:
+Published versions use semantic versioning and annotated Git tags. Tags are
+immutable by default. A same-version documentation republication requires an
+explicit steward instruction, a public issue, disclosure of the prior and new
+targets, complete review of the corrected candidate, a lease-protected tag
+move, and refreshed release notes. A release identifies:
 
 - the exact repository commit and date;
 - the adopted Commons tag and peeled commit;
@@ -132,19 +137,28 @@ unresolved material finding or substitutes for steward approval.
 ### Version 1.0.0 baseline
 
 - **Effective date:** 2026-08-03
-- **Release form:** annotated tag `v1.0.0`; the coordinated Commons-pin
-  correction is an owner-authorized bounded replacement, while the normal
-  release rule remains immutable tags
-- **Immediately prior tag object:** `24290489bd59fb80d27a16c8360b1f41263310f9`
-- **Immediately prior release commit:**
+- **Release form:** annotated tag `v1.0.0`; documentation-only republication
+  authorized through [issue 3](https://github.com/BradGroux/relationship-operating-framework/issues/3)
+  and [issue 4](https://github.com/BradGroux/relationship-operating-framework/issues/4)
+- **Original tag object:** `24290489bd59fb80d27a16c8360b1f41263310f9`
+- **Original release commit:**
   `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
+- **Immediately prior tag object:** `b8d135dc6ab267a2a07fead0f55668ccd007ca72`
+- **Immediately prior release commit:**
+  `6a255a8ded7d4cb86a9584b46e7694213019264f`
+- **Reviewed replacement framework candidate:**
+  `fec214099ea6479a675529b85657f429a6e3b3b5`
+- **Final republished tag target:** recorded in the refreshed GitHub release after
+  merge; its framework content must match the reviewed replacement candidate
 - **Commons adoption:** `v1.0.0` at
   `a0f0d384e9010a65d1a21a324b4c912433d5e031`
 - **Known limitations:** no longitudinal real-world validation; fictional
   examples; no domain, legal, privacy, safeguarding, organizational, or
   professional certification; first-user, first-job, lifecycle, domain-model,
   and Mission Control questions unresolved
-- **Superseded public release:** none
+- **Superseded same-version target:**
+  `6a255a8ded7d4cb86a9584b46e7694213019264f`; original target
+  `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`; no earlier semantic version
 - **Responsible steward:** Brad Groux
 - **Publication destination:**
   <https://github.com/BradGroux/relationship-operating-framework>

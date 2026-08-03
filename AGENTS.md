@@ -57,6 +57,9 @@ reinterpret, or change Commons.
   question.
 - Use fictional public examples unless real material is explicitly authorized,
   safely sourced, and necessary.
+- Add an inline Mermaid diagram only when it materially clarifies a relationship,
+  decision, or authority boundary. Keep it understandable with the surrounding
+  prose and do not let it imply a lifecycle, score, system, or product design.
 - Keep private relationship context, personal data, prompts, local paths, tool or
   model names, and private planning history out of public records.
 - Add no scripts, automation, CI, schemas, or generated artifacts to the initial

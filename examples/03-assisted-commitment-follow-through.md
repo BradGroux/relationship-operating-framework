@@ -22,6 +22,32 @@ unresolved promises. The agent surfaces:
 The notes contain contradictions, and the agent assigns high confidence to the
 batch follow-up suggestion.
 
+## Scenario decision view
+
+```mermaid
+flowchart TD
+    A["Agent surfaces possible items<br/>from authorized notes"]
+    H["Named steward checks primary sources,<br/>consent, authority, and contradictions"]
+    S["Sam: explicit promise found"]
+    B["Batch follow-up: no permission found"]
+    L["Lee: do-not-contact boundary found"]
+    F["Assign human-owned follow-through<br/>or renegotiation"]
+    R["Reject the batch suggestion"]
+    C["Carry the boundary forward<br/>and correct incomplete copies"]
+
+    A --> H
+    H --> S
+    H --> B
+    H --> L
+    S --> F
+    B --> R
+    L --> C
+```
+
+The agent's output starts review; it does not decide the branches. Confidence
+cannot create a commitment, consent, contact authority, or permission to ignore
+a controlling boundary.
+
 ## Applying the framework
 
 ### Treat the output as a prompt for review
