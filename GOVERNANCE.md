@@ -132,9 +132,14 @@ unresolved material finding or substitutes for steward approval.
 ### Version 1.0.0 baseline
 
 - **Effective date:** 2026-08-03
-- **Release form:** immutable annotated tag `v1.0.0`
+- **Release form:** annotated tag `v1.0.0`; the coordinated Commons-pin
+  correction is an owner-authorized bounded replacement, while the normal
+  release rule remains immutable tags
+- **Immediately prior tag object:** `24290489bd59fb80d27a16c8360b1f41263310f9`
+- **Immediately prior release commit:**
+  `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
 - **Commons adoption:** `v1.0.0` at
-  `27870fb1d57d951b9ef5a3a86f33ef068ee557da`
+  `a0f0d384e9010a65d1a21a324b4c912433d5e031`
 - **Known limitations:** no longitudinal real-world validation; fictional
   examples; no domain, legal, privacy, safeguarding, organizational, or
   professional certification; first-user, first-job, lifecycle, domain-model,

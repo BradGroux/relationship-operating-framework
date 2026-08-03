@@ -70,7 +70,7 @@ judgment is made, and every external action.
 Relationship adopts [Open Framework Commons
 v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0),
 whose annotated tag peels to release commit
-[`27870fb1d57d951b9ef5a3a86f33ef068ee557da`](https://github.com/BradGroux/open-framework-commons/commit/27870fb1d57d951b9ef5a3a86f33ef068ee557da).
+[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
 Commons supplies shared ecosystem principles and boundaries. This independent
 framework owns its relationship method, terminology, examples, research,
 governance, and releases.
