@@ -50,7 +50,9 @@ Framework candidate reviewed on 2026-08-03:
 
 - **Commit:** `fec214099ea6479a675529b85657f429a6e3b3b5`
 - **Tree:** `5d7b9ada117c0b6f685fec4cadf234acdd08d9ae`
-- **Prior published target:** `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
+- **Immediately prior published target:**
+  `6a255a8ded7d4cb86a9584b46e7694213019264f`
+- **Original published target:** `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
 
 | Perspective | Verdict | Findings |
 |---|---|---|
@@ -65,6 +67,24 @@ The [republication review disposition](v1.0.0-visualization-review-disposition-2
 records the public-hygiene finding, the corrective documentation, and the
 passing corrected-candidate reruns. The final replacement tag target must be
 recorded in the refreshed GitHub release after merge-tree comparison.
+
+The framework and record candidates were reviewed before the coordinated
+Commons-pin refresh merged at
+`6a255a8ded7d4cb86a9584b46e7694213019264f`. Their framework meaning remains
+unchanged; the combined branch requires a separate exact-commit integration
+review before pull-request merge.
+
+## Coordinated Open Framework Commons v1.0.0 pin refresh
+
+Corrected candidate reviewed on 2026-08-03:
+
+- **Commit:** `3f93ee84f8bb069c49668c482497c6a043a68522`
+- **Tree:** `8eb6ce9910c34b3d0a80feab6a52e55063401801`
+
+The consolidated
+[coordinated refresh review](open-framework-commons-v1.0.0-coordinated-refresh-review-2026-08-03.md)
+records separate standards and specification passes. Both returned GO with no
+open findings after one Material release-history omission was corrected.
 
 ## Initial version 1.0.0 publication
 
