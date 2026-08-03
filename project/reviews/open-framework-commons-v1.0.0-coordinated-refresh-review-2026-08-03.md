@@ -59,7 +59,7 @@ immutable tags as the normal release rule.
 ## Verification
 
 - Exact candidate commit and tree resolved.
-- `git diff --check` passed.
+- Whitespace and patch-integrity validation passed.
 - All local Markdown files, links, and heading targets were checked.
 - Canonical vocabulary, authority, proposal status, Commons adoption, and the
   Influence boundary remain coherent.
