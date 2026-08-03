@@ -46,5 +46,18 @@ records the steward's decision and preserves material dissent.
 
 ## Version 1.0.0 record
 
-The exact candidate commit and its practical, adversarial, coherence,
-public-hygiene, and disposition records will be indexed here before release.
+Corrected candidate reviewed on 2026-08-03:
+
+- **Commit:** `6f25eb5419695aae4c33405f9d1f9983e67f84bb`
+- **Tree:** `3e80faccd44612436e19279a71749b8d5099bcfd`
+
+| Perspective | Verdict | Findings |
+|---|---|---|
+| [Practical application](v1.0.0-practical-application-review-2026-08-03.md) | GO | None |
+| [Adversarial misuse](v1.0.0-adversarial-misuse-review-2026-08-03.md) | GO | None |
+| [Canonical coherence](v1.0.0-canonical-coherence-review-2026-08-03.md) | GO | None |
+| [Public hygiene](v1.0.0-public-hygiene-review-2026-08-03.md) | GO | 1 Suggestion |
+
+The [review disposition](v1.0.0-review-disposition-2026-08-03.md) records the
+initial candidate findings, their corrections, the final verdicts, and the
+remaining release-time checks.
