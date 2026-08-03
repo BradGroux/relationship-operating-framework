@@ -44,7 +44,28 @@ the reviewed commit, verdict, severity, finding substance, or limitations.
 `GO` requires no unresolved Blocker or Material finding. A separate disposition
 records the steward's decision and preserves material dissent.
 
-## Version 1.0.0 record
+## Version 1.0.0 documentation republication
+
+Framework candidate reviewed on 2026-08-03:
+
+- **Commit:** `fec214099ea6479a675529b85657f429a6e3b3b5`
+- **Tree:** `5d7b9ada117c0b6f685fec4cadf234acdd08d9ae`
+- **Prior published target:** `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
+
+| Perspective | Verdict | Findings |
+|---|---|---|
+| [Practical application](v1.0.0-visualization-practical-application-review-2026-08-03.md) | GO | None |
+| [Adversarial misuse](v1.0.0-visualization-adversarial-misuse-review-2026-08-03.md) | GO | None |
+| [Canonical coherence](v1.0.0-visualization-canonical-coherence-review-2026-08-03.md) | GO | None |
+| [Public hygiene](v1.0.0-republication-public-hygiene-review-2026-08-03.md) | NO-GO | 1 Material |
+| [Commons adoption refresh](v1.0.0-commons-adoption-refresh-review-2026-08-03.md) | GO | None |
+
+The [republication review disposition](v1.0.0-visualization-review-disposition-2026-08-03.md)
+records the public-hygiene finding, the corrective documentation, and the
+required corrected-candidate reruns. The final replacement tag target must be
+recorded in the refreshed GitHub release after merge-tree comparison.
+
+## Initial version 1.0.0 publication
 
 Corrected candidate reviewed on 2026-08-03:
 

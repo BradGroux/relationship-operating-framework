@@ -140,13 +140,20 @@ unresolved material finding or substitutes for steward approval.
 - **Release form:** annotated tag `v1.0.0`; documentation-only republication
   authorized through [issue 3](https://github.com/BradGroux/relationship-operating-framework/issues/3)
   and [issue 4](https://github.com/BradGroux/relationship-operating-framework/issues/4)
+- **Prior published tag target:**
+  `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`
+- **Reviewed replacement framework candidate:**
+  `fec214099ea6479a675529b85657f429a6e3b3b5`
+- **Final republished tag target:** recorded in the refreshed GitHub release after
+  merge; its framework content must match the reviewed replacement candidate
 - **Commons adoption:** `v1.0.0` at
   `a0f0d384e9010a65d1a21a324b4c912433d5e031`
 - **Known limitations:** no longitudinal real-world validation; fictional
   examples; no domain, legal, privacy, safeguarding, organizational, or
   professional certification; first-user, first-job, lifecycle, domain-model,
   and Mission Control questions unresolved
-- **Superseded public release:** none
+- **Superseded same-version target:**
+  `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`; no earlier semantic version
 - **Responsible steward:** Brad Groux
 - **Publication destination:**
   <https://github.com/BradGroux/relationship-operating-framework>

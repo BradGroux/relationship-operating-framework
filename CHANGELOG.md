@@ -5,6 +5,14 @@ The project uses semantic versioning for approved releases.
 
 ## 1.0.0 — 2026-08-03
 
+### Republished
+
+- Documentation-only republication replaces prior Relationship release target
+  `ce7957143aa5eb3860b2fe81b63ec62a8857dbfb`. The final replacement target is
+  recorded in the refreshed GitHub release after its merged tree is compared
+  with reviewed framework candidate
+  `fec214099ea6479a675529b85657f429a6e3b3b5`.
+
 ### Added
 
 - Initial charter for independent, people-first relationship stewardship.
