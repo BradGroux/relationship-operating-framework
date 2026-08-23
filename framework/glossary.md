@@ -2,7 +2,7 @@
 
 This glossary defines only terms used with a specific meaning in the
 Relationship Operating Framework. Shared ecosystem vocabulary remains in [Open
-Framework Commons v1.0.0](https://github.com/BradGroux/open-framework-commons/blob/v1.0.0/CONTEXT.md).
+Framework Commons v1.1.0](https://github.com/BradGroux/open-framework-commons/blob/v1.1.0/CONTEXT.md).
 
 ## Agent
 

@@ -3,13 +3,14 @@
 - **Status:** Accepted initial governance
 - **Founding steward:** Brad Groux
 - **Effective date:** 2026-08-03
+- **Last revised:** 2026-08-22
 
 ## Purpose
 
 This document governs how the Relationship Operating Framework changes while
 remaining people-first, independent, tool-replaceable, and accountable to its
 [charter](framework/charter.md) and adopted [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0).
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
 
 ## Authority
 
@@ -162,6 +163,25 @@ unresolved material finding or substitutes for steward approval.
 - **Responsible steward:** Brad Groux
 - **Publication destination:**
   <https://github.com/BradGroux/relationship-operating-framework>
+
+### Version 1.1.0 release
+
+- **Effective date:** 2026-08-22
+- **Release form:** annotated tag `v1.1.0`; minor documentation release
+  authorized through [issue 7](https://github.com/BradGroux/relationship-operating-framework/issues/7)
+  and [issue 8](https://github.com/BradGroux/relationship-operating-framework/issues/8)
+- **Commons adoption:** `v1.1.0` at
+  `f25a2b89b4aed95984fd235e2e229efe52c125d8`
+- **Framework effect:** no change to Relationship's method, human-authority
+  boundary, relationship stewardship scope, or separation from Influence
+- **Repository effect:** contribution routing, prospective decision records,
+  validation, release records, machine-readable versioning, and navigation
+- **Known limitations:** the version 1.0.0 limitations remain; repository
+  validation establishes publication integrity, not real-world effectiveness
+- **Superseded semantic release:** `v1.0.0`; its tag and historical records
+  remain unchanged
+- **Responsible steward:** Brad Groux
+- **Release record:** [version 1.1.0](project/releases/v1.1.0.md)
 
 ## Conflicts, dissent, and appeals
 

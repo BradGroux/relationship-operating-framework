@@ -19,8 +19,8 @@ Apply this order:
 
 Lower-authority material cannot silently redefine higher-authority material.
 
-The framework adopts Open Framework Commons `v1.0.0` at commit
-`a0f0d384e9010a65d1a21a324b4c912433d5e031` by reference. If Commons and local
+The framework adopts Open Framework Commons `v1.1.0` at commit
+`f25a2b89b4aed95984fd235e2e229efe52c125d8` by reference. If Commons and local
 guidance appear to conflict, stop and surface the conflict. Do not silently copy,
 reinterpret, or change Commons.
 

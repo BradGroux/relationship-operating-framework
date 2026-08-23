@@ -21,7 +21,7 @@ reporting.
    boundaries](framework/principles-and-boundaries.md), and [practice
    guide](framework/practice-guide.md).
 2. Read the exact adopted [Open Framework Commons
-   v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0).
+   v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
 3. Decide whether the need is editorial, canonical, governance, an example,
    research, or a review record.
 4. Explain the reader problem, evidence, alternatives, risks, limitations, and
@@ -45,7 +45,8 @@ for a proposal or question. Use a pull request when the change is prepared.
   contact as valid outcomes.
 - Keep agents subordinate to named human authority and exact-action approval.
 - Do not introduce sales stages, scores, schemas, APIs, record formats,
-  automation architecture, agent contracts, CI, or machine-readable conformance.
+  automation architecture, agent contracts, CI requirements, or
+  machine-readable conformance into the framework method.
 - Keep the initial first-user, first-job, lifecycle, domain-model, Mission
   Control, and extension ideas visibly non-normative unless governance accepts a
   later change.
@@ -74,9 +75,20 @@ was checked; they do not create new requirements.
 
 ## Verification checklist
 
-This initial documentation release intentionally has no scripts, automation, or
-CI. Before submitting a change, report the manual or tool-assisted checks used
-to verify:
+Run the repository validation before submitting a change:
+
+```sh
+./scripts/validate-repository.sh
+```
+
+When Markdown contains Mermaid diagrams, also run:
+
+```sh
+./scripts/validate-mermaid.sh
+```
+
+Report these checks and any additional manual or tool-assisted checks used to
+verify:
 
 - repository status, diff, branch, remote, and authorship;
 - every local Markdown link and heading reference;

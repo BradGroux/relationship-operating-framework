@@ -1,8 +1,9 @@
 # Relationship Operating Framework charter
 
-- **Status:** Accepted 1.0.0
+- **Status:** Accepted 1.1.0
 - **Founding steward:** Brad Groux
-- **Effective date:** 2026-08-03
+- **Originally effective:** 2026-08-03
+- **Current revision:** 2026-08-22
 
 ## Definition
 
@@ -109,9 +110,9 @@ stewardship practice.
 ## Commons adoption and independence
 
 This framework adopts [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0)
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0)
 exactly. The adopted annotated tag peels to
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
 
 Commons owns the ecosystem's shared principles and boundaries. Relationship
 owns its local purpose, audience, practice, terminology, examples, research,
@@ -122,7 +123,7 @@ product.
 If local guidance must ever deviate from an adopted Commons revision, the
 deviation must name the exact shared statement, explain why Relationship needs
 different guidance, receive explicit steward approval, and appear in a
-Relationship release. The initial release records no deviations.
+Relationship release. The current release records no deviations.
 
 ## Proposals are not doctrine
 

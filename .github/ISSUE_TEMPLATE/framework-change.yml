@@ -1,0 +1,47 @@
+name: Framework change
+description: Propose a correction or change to the Relationship Operating Framework.
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: Read the charter, governance, and contributing guide before proposing a material change. Never publish private relationship context or personal data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is unclear, incorrect, unsafe, or missing? Describe affected roles or fictional contexts, not private identities.
+    validations:
+      required: true
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change type
+      options:
+        - Editorial correction
+        - Material framework change
+        - Governance or charter change
+        - Example, research, or review record
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Scope and authority
+      description: Why does this belong in Relationship rather than Commons, Influence, or a local implementation?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and uncertainty
+      description: What supports the proposal, what alternatives exist, and what remains uncertain?
+    validations:
+      required: true
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Which canonical documents, reader groups, practices, releases, or boundaries could be affected?
+    validations:
+      required: true
