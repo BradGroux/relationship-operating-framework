@@ -92,9 +92,9 @@ judgment is made, and every external action.
 ## Commons adoption and independence
 
 Relationship adopts [Open Framework Commons
-v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0),
+v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0),
 whose annotated tag peels to release commit
-[`a0f0d384e9010a65d1a21a324b4c912433d5e031`](https://github.com/BradGroux/open-framework-commons/commit/a0f0d384e9010a65d1a21a324b4c912433d5e031).
+[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
 Commons supplies shared ecosystem principles and boundaries. This independent
 framework owns its relationship method, terminology, examples, research,
 governance, and releases.
@@ -111,19 +111,25 @@ neither framework absorbs the other.
 | Path | Reader job | Authority |
 |---|---|---|
 | `framework/` | Understand and practice Relationship | Canonical framework |
+| `decisions/` | Understand accepted material choices | Decision rationale; cannot silently amend canonical documents |
 | `examples/` | See fictional applications | Illustrative; cannot amend the framework |
 | `research/` | Evaluate evidence and open questions | Research record; not doctrine |
+| `project/releases/` | Inspect release scope and compatibility | Release record; not doctrine |
 | `project/reviews/` | Inspect exact-commit review evidence | Review record; not doctrine |
 | `GOVERNANCE.md` | Understand authority and releases | Repository governance |
 | `CONTRIBUTING.md` | Prepare and review changes | Contribution process |
 
 ## Status and limits
 
-Version 1.0.0 is the approved initial documentation baseline, dated 2026-08-03.
-Its annotated `v1.0.0` tag identifies the reviewed and merged release tree. The
-baseline provides a practical, people-first starting point and adopts Commons
-v1.0.0. It has not been validated through longitudinal real-world study and
-does not certify a person, team, tool, or implementation.
+Version 1.1.0 is represented by this tree, dated 2026-08-22. It adopts Commons v1.1.0,
+which recognizes Focus Operating Framework as a fifth independent ecosystem
+product while leaving the shared principles and boundaries unchanged.
+Relationship's people-first method and human-authority boundaries are unchanged
+from the [v1.0.0
+baseline](https://github.com/BradGroux/relationship-operating-framework/releases/tag/v1.0.0).
+
+Neither release has been validated through longitudinal real-world study and
+neither certifies a person, team, tool, or implementation.
 
 The examples are fictional and illustrative. Documentation review can show
 clarity, coherence, misuse resistance, and publication hygiene; it cannot prove

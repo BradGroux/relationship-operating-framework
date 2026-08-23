@@ -248,7 +248,7 @@ The initial release intentionally leaves these questions open:
   types, record formats, or scoring rules.
 - **Mission Control:** a future proposal may explore what an adopter needs to
   see to make stewardship decisions. No dashboard, view, metric, design system,
-  or implementation is part of v1.0.0.
+  or implementation is part of the current framework.
 
 These ideas may be tested through research and issues. An implementation may
 make local choices, but it must not present them as framework requirements.

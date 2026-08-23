@@ -3,6 +3,34 @@
 Material changes to the Relationship Operating Framework are recorded here.
 The project uses semantic versioning for approved releases.
 
+## 1.1.0 (prepared for 2026-08-22)
+
+### Added
+
+- A prospective decision record for adopting Open Framework Commons `v1.1.0`.
+- Minimal contribution routing, issue and pull-request guidance, and repository
+  validation for version metadata, Markdown links, Mermaid diagrams, and public
+  hygiene.
+- Canonical framework, decision, and release directory indexes.
+- A machine-readable `VERSION` file and restrained ignore rules for local or
+  generated artifacts.
+
+### Changed
+
+- Adopted Open Framework Commons `v1.1.0` at exact release commit
+  `f25a2b89b4aed95984fd235e2e229efe52c125d8` with no deviations.
+- Updated current authority, contribution, citation, navigation, governance,
+  and release surfaces to version 1.1.0.
+
+### Compatibility
+
+- Commons v1.1.0 adds Focus Operating Framework as the fifth independent
+  product in Commons scope and does not change shared principles or boundaries.
+- Relationship's people-first method, human ownership of external action,
+  separation from Influence, and unresolved proposals remain unchanged.
+- Existing v1.0.0 references in historical release and review records remain
+  historical facts rather than current adoption guidance.
+
 ## 1.0.0 — 2026-08-03
 
 ### Added

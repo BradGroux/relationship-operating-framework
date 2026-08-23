@@ -1,7 +1,7 @@
 # Principles and boundaries
 
 The [charter](charter.md) adopts the shared philosophy in [Open Framework
-Commons v1.0.0](https://github.com/BradGroux/open-framework-commons/tree/v1.0.0).
+Commons v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
 This document states the product-local principles needed to practice
 relationship stewardship. It explains Relationship; it does not restate or
 replace Commons.
