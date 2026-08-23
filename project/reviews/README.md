@@ -44,6 +44,25 @@ the reviewed commit, verdict, severity, finding substance, or limitations.
 `GO` requires no unresolved Blocker or Material finding. A separate disposition
 records the steward's decision and preserves material dissent.
 
+## Prepared version 1.1.0 candidate
+
+Candidate reviewed on 2026-08-22:
+
+- **Commit:** `e32f67b7f4171dfdfff8a86439171420122b4335`
+- **Tree:** `4e8f99c0d07a64d9cbf0813029be641bb4483367`
+
+| Perspective | Verdict | Findings |
+|---|---|---|
+| [Practical application](v1.1.0-practical-application-review-2026-08-22.md) | GO | None |
+| [Adversarial misuse](v1.1.0-adversarial-misuse-review-2026-08-22.md) | GO | None |
+| [Canonical coherence](v1.1.0-canonical-coherence-review-2026-08-22.md) | GO | None |
+| [Public hygiene](v1.1.0-public-hygiene-review-2026-08-22.md) | GO | None |
+
+The [review disposition](v1.1.0-review-disposition-2026-08-22.md) records
+pre-candidate corrections, the final candidate verdicts, and remaining
+merge-and-release gates. The reports and disposition are record-only additions;
+they do not change framework meaning.
+
 ## Version 1.0.0 documentation republication
 
 Framework candidate reviewed on 2026-08-03:

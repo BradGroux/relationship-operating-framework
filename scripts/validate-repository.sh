@@ -11,6 +11,11 @@ required_files=(
   framework/practice-guide.md framework/glossary.md decisions/README.md
   decisions/template.md decisions/0001-adopt-open-framework-commons-v1.1.0.md
   project/releases/README.md project/releases/v1.1.0.md project/reviews/README.md
+  project/reviews/v1.1.0-practical-application-review-2026-08-22.md
+  project/reviews/v1.1.0-adversarial-misuse-review-2026-08-22.md
+  project/reviews/v1.1.0-canonical-coherence-review-2026-08-22.md
+  project/reviews/v1.1.0-public-hygiene-review-2026-08-22.md
+  project/reviews/v1.1.0-review-disposition-2026-08-22.md
   .github/CODEOWNERS .github/ISSUE_TEMPLATE/framework-change.yml
   .github/ISSUE_TEMPLATE/config.yml .github/PULL_REQUEST_TEMPLATE.md
   .github/workflows/validate.yml

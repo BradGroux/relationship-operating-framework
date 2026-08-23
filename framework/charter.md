@@ -1,9 +1,9 @@
 # Relationship Operating Framework charter
 
-- **Status:** Prepared 1.1.0 candidate
+- **Status:** Accepted 1.1.0
 - **Founding steward:** Brad Groux
 - **Originally effective:** 2026-08-03
-- **Prepared revision:** 2026-08-22
+- **Current revision:** 2026-08-22
 
 ## Definition
 

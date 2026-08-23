@@ -3,7 +3,7 @@
 Material changes to the Relationship Operating Framework are recorded here.
 The project uses semantic versioning for approved releases.
 
-## 1.1.0 (prepared for 2026-08-22)
+## 1.1.0 — 2026-08-22
 
 ### Added
 

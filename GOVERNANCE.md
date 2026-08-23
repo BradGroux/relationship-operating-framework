@@ -3,7 +3,7 @@
 - **Status:** Accepted initial governance
 - **Founding steward:** Brad Groux
 - **Effective date:** 2026-08-03
-- **Prepared revision:** 2026-08-22
+- **Last revised:** 2026-08-22
 
 ## Purpose
 
@@ -164,9 +164,9 @@ unresolved material finding or substitutes for steward approval.
 - **Publication destination:**
   <https://github.com/BradGroux/relationship-operating-framework>
 
-### Prepared version 1.1.0 release
+### Version 1.1.0 release
 
-- **Planned effective date:** 2026-08-22
+- **Effective date:** 2026-08-22
 - **Release form:** annotated tag `v1.1.0`; minor documentation release
   authorized through [issue 7](https://github.com/BradGroux/relationship-operating-framework/issues/7)
   and [issue 8](https://github.com/BradGroux/relationship-operating-framework/issues/8)
