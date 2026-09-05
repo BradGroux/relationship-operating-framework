@@ -33,54 +33,37 @@ for executable_file in scripts/validate-markdown.rb scripts/validate-mermaid.sh 
 done
 
 version="$(tr -d '\r\n' < VERSION)"
-[[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || {
-  echo "VERSION is not semantic: $version" >&2
-  exit 1
-}
-
-grep -Fq "Version $version" README.md
-grep -Eq "Prepared $version candidate|Accepted $version" framework/charter.md
-grep -Fq "## $version" CHANGELOG.md
-grep -Fq "version: $version" CITATION.cff
-
-if grep -Fq "Accepted $version" framework/charter.md; then
-  grep -Fq "date-released:" CITATION.cff
-  grep -Fq "Release date:" project/releases/v1.1.0.md
-else
-  ! grep -Fq "date-released:" CITATION.cff
-  grep -Fq "Planned release date:" project/releases/v1.1.0.md
-fi
-
-commons_version="v1.1.0"
-commons_commit="f25a2b89b4aed95984fd235e2e229efe52c125d8"
-current_adoption_files=(
-  AGENTS.md README.md CONTRIBUTING.md GOVERNANCE.md framework/charter.md
-  framework/principles-and-boundaries.md framework/glossary.md
-  decisions/0001-adopt-open-framework-commons-v1.1.0.md
-)
-
-for adoption_file in "${current_adoption_files[@]}"; do
-  grep -Fq "$commons_version" "$adoption_file" || {
-    echo "Missing Commons $commons_version adoption reference: $adoption_file" >&2
-    exit 1
-  }
-done
-
-for authority_file in AGENTS.md README.md framework/charter.md decisions/0001-adopt-open-framework-commons-v1.1.0.md; do
-  grep -Fq "$commons_commit" "$authority_file" || {
-    echo "Missing exact Commons commit: $authority_file" >&2
-    exit 1
-  }
-done
-
 ruby -r date -r yaml -e '
+  version = File.read("VERSION").strip
+  match = /\A(\d{4})\.(\d{2})\.(\d{2})(?:\.([1-9]\d*))?\z/.match(version)
+  abort("Invalid calendar edition") unless match
+  date = Date.new(*match.captures.first(3).map(&:to_i)).iso8601
   data = YAML.safe_load(File.read("CITATION.cff"), permitted_classes: [Date], aliases: false)
-  abort("CITATION.cff version mismatch") unless data["version"].to_s == File.read("VERSION").strip
+  abort("Citation version/date mismatch") unless data["version"] == version && data["date-released"].to_s == date
+  checks = {
+    "README.md" => "Version #{version} is the first calendar edition.",
+    "framework/charter.md" => "**Status:** Accepted #{version}",
+    "CHANGELOG.md" => "## #{version} — #{date}",
+    "project/releases/v#{version}.md" => "**Release date:** #{date}"
+  }
+  # Later editions need not describe themselves as the first.
+  checks["README.md"] = "Version #{version} "
+  checks.each { |path, literal| abort("Missing edition metadata: #{path}") unless File.read(path).include?(literal) }
+  abort("Charter date mismatch") unless File.read("framework/charter.md").include?("**Current revision:** #{date}")
 '
+
+commons_version="v2026.09.05"
+commons_commit="8868a248457dd7b663563beb243c5ebcbb8ac360"
+for adoption_file in AGENTS.md README.md CONTRIBUTING.md GOVERNANCE.md framework/charter.md framework/principles-and-boundaries.md framework/glossary.md decisions/0002-calendar-editions-and-commons-adoption.md; do
+  grep -Fq "$commons_version" "$adoption_file" || { echo "Missing current Commons adoption: $adoption_file" >&2; exit 1; }
+done
+for authority_file in AGENTS.md README.md framework/charter.md decisions/0002-calendar-editions-and-commons-adoption.md; do
+  grep -Fq "$commons_commit" "$authority_file" || { echo "Missing exact Commons commit: $authority_file" >&2; exit 1; }
+done
 
 ruby scripts/validate-markdown.rb
 
-if rg --hidden -n -i '/Users/|gho_[[:alnum:]_]+|sk-[[:alnum:]_-]+|codex|chatgpt|claude|anthropic|openai' \
+if rg --hidden -l -i '/Users/|gho_[[:alnum:]_]+|sk-[[:alnum:]_-]+|codex|chatgpt|claude|anthropic|openai' \
   --glob '!.git/**' --glob '!scripts/validate-repository.sh' .; then
   echo "Publication-hygiene pattern found in public content." >&2
   exit 1
