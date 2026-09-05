@@ -14,8 +14,11 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Validate documentation and release metadata
-        run: ./scripts/validate-repository.sh
+        run: |
+          ./scripts/validate-repository.sh
+          ruby scripts/test-validation.rb

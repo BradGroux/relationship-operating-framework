@@ -31,7 +31,7 @@ flowchart LR
     X["Exclude from the handoff"]
     C{"Does Jordan welcome an<br/>introduction to Casey?"}
     I["Introduce Casey with minimum<br/>authorized context"]
-    N["No relationship transfer;<br/>honor existing promises through<br/>the authorized channel"]
+    N["No relationship transfer;<br/>check current permission<br/>before any promised contact"]
     U["Jordan controls any<br/>future engagement"]
 
     O --> H
@@ -78,9 +78,12 @@ or removal of retained context.
 
 If Jordan agrees, Taylor makes a direct introduction that states the purpose
 and transfers only necessary authorized context. If Jordan does not agree or
-does not respond, the nonprofit still honors the credit and sends the promised
-guide through the already authorized channel; it does not manufacture a new
-relationship for Casey.
+does not respond to the introduction, that alone does not expand or revoke
+the separate permission for the promised guide. The nonprofit checks that
+permission is still current before sending. If Jordan withdraws contact
+permission, the promise does not justify a final message. The team pauses
+sending and resolves any remaining organizational duty through an authorized
+private process. It does not manufacture a new relationship for Casey.
 
 ## Where the example stops
 

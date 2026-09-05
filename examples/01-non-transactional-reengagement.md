@@ -61,8 +61,10 @@ still useful and safe to share.
 ### What is welcome?
 
 The prior channel and subject were explicit, but the permission is old. Morgan
-limits the decision to one proportionate message and includes no automated
-follow-up. Any withdrawal, delivery failure, or do-not-contact signal ends the
+must establish that the invitation still applies; age or an unfinished promise
+alone cannot establish that. If uncertainty remains, Morgan waits or does not
+contact. Only if current permission is established does Morgan limit the
+decision to one proportionate message, without manual or automated chasing. Any withdrawal, delivery failure, or do-not-contact signal ends the
 attempt.
 
 ### What can be contributed without debt?
@@ -81,7 +83,8 @@ wording, attachment, and timing. A bounded decision could be:
 > no retry.
 
 Waiting or not contacting would also be valid if Morgan cannot confirm the
-channel, the promise, or the relevance.
+current permission, the channel, the promise, or the relevance. Morgan does
+not change channels or ask another person to obtain a response.
 
 ## Where the example stops
 

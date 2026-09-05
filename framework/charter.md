@@ -1,9 +1,9 @@
 # Relationship Operating Framework charter
 
-- **Status:** Accepted 1.1.0
+- **Status:** Accepted 2026.09.05
 - **Founding steward:** Brad Groux
 - **Originally effective:** 2026-08-03
-- **Current revision:** 2026-08-22
+- **Current revision:** 2026-09-05
 
 ## Definition
 
@@ -21,8 +21,8 @@ not the relationship itself.
 ## Mission
 
 Help people care for long-running relationships with the same attention they
-give new opportunities: contribute before asking, remember what matters, honor
-what was promised, make room for change, repair harm when possible, and let
+give new opportunities: offer help without debt, ask honestly, remember what
+matters, honor what was promised, make room for change, repair harm when possible, and let
 people decline or disengage without penalty.
 
 ## Who it serves
@@ -43,7 +43,7 @@ The framework covers:
 - continuity across time, role changes, and handoffs;
 - explicit and implied commitments that require human confirmation;
 - consent, communication preferences, privacy, and boundaries;
-- contribution before asks without creating a debt;
+- contribution without debt and legitimate help without prior contribution;
 - non-transactional re-engagement;
 - follow-through, repair, waiting, closure, and do-not-contact decisions;
 - accountable human judgment and bounded agent assistance; and
@@ -58,9 +58,11 @@ organizational processes.
 1. People are never reduced to opportunities, assets, records, or scores.
 2. Relationship continuity matters more than contact frequency or visible
    activity.
-3. Existing commitments come before new asks.
+3. Account for existing commitments before new asks; safety, consent and
+   realistic capacity govern whether to fulfill, renegotiate or close them.
 4. Contribution creates no entitlement to attention, access, reciprocity, or
-   future business.
+   future business. Help, clarification, accommodation and support do not have
+   to be earned through prior contribution.
 5. Re-engagement is an invitation that can be ignored or declined without cost.
 6. Consent and communication boundaries are current, specific, and controlled
    by the affected person.
@@ -107,12 +109,16 @@ frameworks. Relationship does not adopt Influence's concerns, moves, outcome
 model, or community-growth method. Influence does not define Relationship's
 stewardship practice.
 
+Focus governs individual attention and private practice. Relationship does not
+require Focus moves, journals, productivity measures or shared personal records.
+Using either framework creates no authority to inspect someone else's practice.
+
 ## Commons adoption and independence
 
 This framework adopts [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0)
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05)
 exactly. The adopted annotated tag peels to
-[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
+[`8868a248457dd7b663563beb243c5ebcbb8ac360`](https://github.com/BradGroux/open-framework-commons/commit/8868a248457dd7b663563beb243c5ebcbb8ac360).
 
 Commons owns the ecosystem's shared principles and boundaries. Relationship
 owns its local purpose, audience, practice, terminology, examples, research,
@@ -148,5 +154,5 @@ current method. Examples, research, and review records cannot amend any of them.
 A charter amendment requires a public proposal, explanation of consequences,
 review against the adopted Commons revision and this framework's boundaries,
 documented steward decision, disclosure of material dissent, and an identifiable
-semantic release. No example, tool, agent action, research note, review report,
+documentation edition. No example, tool, agent action, research note, review report,
 or commercial practice may amend the charter silently.

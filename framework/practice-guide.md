@@ -17,6 +17,9 @@ Begin with one real relationship and one current stewardship question, such as:
 - Should a boundary, correction, closure, or do-not-contact decision be carried
   forward?
 
+Thinking through the question can be enough. No note, recurring review or
+follow-up is required merely because a relationship exists.
+
 Do not begin by importing an entire address book, enriching profiles, assigning
 scores, or automating contact. A list of people is not a relationship practice.
 
@@ -28,7 +31,7 @@ workflow, or lifecycle.
 | Question | Look for | Stop or narrow when |
 |---|---|---|
 | What relationship actually exists? | Direct shared context, current roles, what is known versus assumed | Closeness or relevance depends on inference, scraped data, or stale context |
-| What is already owed? | Promises, follow-ups, introductions, corrections, unresolved harm, explicit endings | A new ask would bypass an existing commitment or needed repair |
+| What is already owed? | Promises, follow-ups, introductions, corrections, unresolved harm, explicit endings | A new ask would evade accountability; fulfillment or repair would violate consent, safety or capacity |
 | What is welcome? | Current consent, channel preference, subject boundaries, privacy, do-not-contact signals | Permission is absent, withdrawn, ambiguous, or limited to another context |
 | What matters now? | The other person's expressed needs, changed circumstances, mutual purpose, capacity | The only reason to act is activity, visibility, quota, fear, or predicted value |
 | What can be contributed without debt? | Useful help, clear intent, manageable burden, no required reciprocity | The contribution disguises a pitch, creates unwanted work, or purchases access |
@@ -84,6 +87,16 @@ statuses, a timeline, or one source of truth. The appropriate location,
 retention period, and access controls depend on the relationship and the
 governing organization, community, and law.
 
+Never retain speculative motives, vulnerabilities or inferred intimacy for
+persuasion. Do not monitor people continuously to keep notes current. Review
+only authorized context when a real decision needs it. If a note is disputed,
+restrict its use while an accountable person checks it; do not overwrite a
+dispute with confident interpretation. If an applicable retention duty prevents
+deletion, restrict access, preserve the dispute and consult the designated
+authority. Retention is not permission to reuse or contact. Keep only the
+minimum boundary needed to prevent unwanted contact, without retaining the
+sensitive story behind it.
+
 ## Honor commitments
 
 Before creating a new commitment:
@@ -91,12 +104,33 @@ Before creating a new commitment:
 - identify existing promises made by the person or team;
 - confirm what was actually promised rather than trusting a generated summary;
 - name the human owner, realistic next step, and any changed capacity;
-- tell the affected person early when a promise cannot be kept;
+- tell the affected person early when a promise cannot be kept, if contact is
+  currently permitted and safe;
 - renegotiate or close it instead of letting it silently disappear; and
 - preserve enough context for another authorized steward to follow through.
 
 An internal reminder is useful only if it leads to accountable human judgment.
 It is not evidence that the commitment was understood, completed, or accepted.
+
+When obligations conflict or capacity is exhausted, identify the actual
+responsibilities and affected people, then narrow, renegotiate, seek an
+authorized handoff or stop. Do not promise that every obligation can be met.
+Use the relevant designated authority for high-impact conflicts; this guide
+does not rank legal, safety or professional duties. If no safe contact path
+exists, pause contact and handle any unresolved duty through its authorized
+private process. No final explanation or apology is owed at the expense of
+a do-not-contact boundary. A process may end with no further action and no new
+record when nothing legitimately needs to be retained.
+
+## Ask for help and account for power
+
+A person may ask for help, clarification, accommodation or support without
+first providing value. State the request honestly and respect the recipient's
+capacity; neither party owes friendship or ongoing access. Where one person
+controls employment, credit, funding or access, a polite yes may reflect
+pressure. Keep support and ordinary responsibilities separate from requests
+for personal engagement. Offer an available private or designated route when
+appropriate, without requiring personal disclosure or an explanation of refusal.
 
 ## Re-engage without transacting
 
@@ -112,7 +146,8 @@ A responsible re-engagement:
   concealed ask;
 - makes no claim of intimacy the relationship does not support;
 - gives the recipient room to decline, redirect, or not respond; and
-- does not trigger an automated chase sequence after silence.
+- does not treat silence as permission for manual or automated chasing, a
+  channel switch or an approach through another person.
 
 If a commercial interest is material, name it before the recipient makes a
 decision affected by it. A warm tone does not make a commercial ask
@@ -121,6 +156,10 @@ non-transactional; clarity and freedom from pressure do.
 ## Repair or close
 
 When a commitment was missed or harm may have occurred:
+
+Before initiating repair, check whether any contact is welcome and safe. A
+missed promise does not override a later refusal. Repair can mean correcting
+one's own practice privately and honoring closure without another message.
 
 1. Confirm the facts and affected people without broadening access to sensitive
    context.

@@ -3,14 +3,14 @@
 - **Status:** Accepted initial governance
 - **Founding steward:** Brad Groux
 - **Effective date:** 2026-08-03
-- **Last revised:** 2026-08-22
+- **Last revised:** 2026-09-05
 
 ## Purpose
 
 This document governs how the Relationship Operating Framework changes while
 remaining people-first, independent, tool-replaceable, and accountable to its
 [charter](framework/charter.md) and adopted [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05).
 
 ## Authority
 
@@ -52,7 +52,7 @@ requires:
 4. independent practical, adversarial, coherence, and public-hygiene review
    against an exact candidate commit;
 5. a public disposition of every finding and material dissent; and
-6. explicit steward approval in an identifiable semantic release.
+6. explicit steward approval in an identifiable documentation edition.
 
 ### Charter or governance change
 
@@ -69,13 +69,21 @@ material change incorporates a conclusion into canonical documents.
 ## Commons adoption and deviation
 
 Relationship adopts Commons revisions explicitly, never automatically. An
-adoption record must identify the Commons repository, semantic tag, exact peeled
+adoption record must identify the Commons repository, release tag, exact peeled
 commit, local documents affected, and any deviation.
 
 A proposed Commons change remains outside Relationship authority. If local
 practice reveals genuine cross-product friction, record the Relationship
 evidence first. Propose a later Commons change only when the learning is shared
 across the ecosystem rather than merely important to this product.
+
+When statements conflict, pause only the disputed action. Identify the exact
+adopted tag and statements, preserve sensitive evidence privately, and route
+local meaning to the Relationship steward or shared meaning to Commons. Record
+the rationale, uncertainty, dissent and disposition: narrow, correct, stop,
+defer or explicitly deviate. A deferral names an owner and a revisit trigger;
+silence is not permission. Unrelated safe work may continue. Adoption with
+exceptions must say so explicitly; it is not full agreement or certification.
 
 ## Review standard
 
@@ -113,11 +121,22 @@ corrected candidate.
 
 ## Releases
 
-Published versions use semantic versioning and annotated Git tags. Tags are
-immutable by default. A same-version documentation republication requires an
-explicit steward instruction, a public issue, disclosure of the prior and new
-targets, complete review of the corrected candidate, a lease-protected tag
-move, and refreshed release notes. A release identifies:
+New editions use YYYY.MM.DD and immutable annotated tags vYYYY.MM.DD, using
+the actual UTC publication date. Additional same-day publications use .1, .2
+and so on, ordered numerically. The first calendar edition follows v1.1.0;
+compare dates and numeric suffixes, not lexical or semantic-version ordering.
+Preserve historical tags, release pages, citations, decisions and reviews; do
+not create dated aliases. Corrections require a new edition, never a tag move.
+Historical republications below describe past exceptions, not current permission.
+
+The date does not promise compatibility. Changes to reader choices, permission,
+responsibility or authority are substantive even when called clarifications.
+Release notes name changed decisions, the predecessor, adoption consequences
+and what practitioners must reconsider. A spelling fix preserving choices is
+editorial. An optional example preserving choices is a compatible addition.
+No version number establishes effectiveness.
+
+Follow the [release runbook](project/releases/releasing.md). A release identifies:
 
 - the exact repository commit and date;
 - the adopted Commons tag and peeled commit;

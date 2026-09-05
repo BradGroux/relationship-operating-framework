@@ -125,3 +125,5 @@ Corrected candidate reviewed on 2026-08-03:
 The [review disposition](v1.0.0-review-disposition-2026-08-03.md) records the
 initial candidate findings, their corrections, the final verdicts, and the
 remaining release-time checks.
+
+- [Calendar edition audit and disposition](edition-2026-09-05-audit.md)

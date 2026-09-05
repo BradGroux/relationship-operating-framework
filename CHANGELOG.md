@@ -1,7 +1,22 @@
 # Changelog
 
 Material changes to the Relationship Operating Framework are recorded here.
-The project uses semantic versioning for approved releases.
+New editions use UTC calendar dates; historical semantic releases remain unchanged.
+Compatibility is described separately in each edition.
+
+## 2026.09.05 — 2026-09-05
+
+- Independently adopt Commons v2026.09.05 at
+  `8868a248457dd7b663563beb243c5ebcbb8ac360` with no deviations.
+- Clarify legitimate help without earned contribution, power differences,
+  capacity conflicts, no-contact repair and minimum sensitive context.
+- Close manual follow-up, channel-switch and promised-contact ambiguities.
+- Migrate prospective metadata and release operations to immutable calendar
+  editions; preserve every historical identity.
+- Strengthen local-link, calendar metadata and release-identity checks.
+
+These are substantive changes to reader decisions, not editorial corrections.
+See the [compatibility and adoption record](project/releases/v2026.09.05.md).
 
 ## 1.1.0 — 2026-08-22
 

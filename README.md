@@ -92,9 +92,9 @@ judgment is made, and every external action.
 ## Commons adoption and independence
 
 Relationship adopts [Open Framework Commons
-v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0),
+v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05),
 whose annotated tag peels to release commit
-[`f25a2b89b4aed95984fd235e2e229efe52c125d8`](https://github.com/BradGroux/open-framework-commons/commit/f25a2b89b4aed95984fd235e2e229efe52c125d8).
+[`8868a248457dd7b663563beb243c5ebcbb8ac360`](https://github.com/BradGroux/open-framework-commons/commit/8868a248457dd7b663563beb243c5ebcbb8ac360).
 Commons supplies shared ecosystem principles and boundaries. This independent
 framework owns its relationship method, terminology, examples, research,
 governance, and releases.
@@ -121,15 +121,14 @@ neither framework absorbs the other.
 
 ## Status and limits
 
-Version 1.1.0 is represented by this tree, dated 2026-08-22. It adopts Commons v1.1.0,
-which recognizes Focus Operating Framework as a fifth independent ecosystem
-product while leaving the shared principles and boundaries unchanged.
-Relationship's people-first method and human-authority boundaries are unchanged
-from the [v1.0.0
-baseline](https://github.com/BradGroux/relationship-operating-framework/releases/tag/v1.0.0).
+Version 2026.09.05 is the first calendar edition. Publication state is recorded
+on its [release page](https://github.com/BradGroux/relationship-operating-framework/releases/tag/v2026.09.05).
+It independently adopts Commons v2026.09.05. The [release record](project/releases/v2026.09.05.md)
+explains substantive changes to help-seeking, contact boundaries, capacity and
+privacy. The date identifies an edition, not compatibility or effectiveness.
 
-Neither release has been validated through longitudinal real-world study and
-neither certifies a person, team, tool, or implementation.
+No edition has longitudinal real-world validation or certifies a person, team,
+tool or implementation.
 
 The examples are fictional and illustrative. Documentation review can show
 clarity, coherence, misuse resistance, and publication hygiene; it cannot prove

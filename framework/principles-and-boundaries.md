@@ -1,7 +1,7 @@
 # Principles and boundaries
 
 The [charter](charter.md) adopts the shared philosophy in [Open Framework
-Commons v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
+Commons v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05).
 This document states the product-local principles needed to practice
 relationship stewardship. It explains Relationship; it does not restate or
 replace Commons.
@@ -58,7 +58,9 @@ mean preserving every interaction or maintaining constant contact.
 Before requesting time, attention, access, endorsement, work, or an
 introduction, check what has already been promised or left unresolved. Follow
 through, renegotiate, apologize, repair, or close the commitment before adding a
-new one.
+new one when appropriate. This is not a duty to continue harmful or impossible
+work, nor a condition on asking for help. Consent, safety and capacity bound
+fulfillment, notification and repair; an old promise grants no contact exception.
 
 A tool may surface a possible commitment. A person must confirm its meaning,
 owner, current state, and appropriate next step.
@@ -71,7 +73,9 @@ could change how an offer is understood.
 
 The recipient controls whether the contribution is wanted and whether anything
 follows. No contribution creates a right to a reply, meeting, referral,
-endorsement, sale, or relationship.
+endorsement, sale, or relationship. Asking for help, clarification, accommodation
+or support does not require prior contribution. The recipient may decline or
+state their capacity without treating the request as a debt.
 
 ## Re-engagement is an invitation
 
@@ -80,9 +84,12 @@ present access. Re-engagement should name genuine shared context without
 exaggerating closeness, make its purpose clear, and allow an easy no or no
 response.
 
-Do not hide a pitch inside a check-in. Do not turn silence into a sequence of
-automated retries. When permission or relevance is uncertain, wait, use a more
-appropriate channel, or do not contact.
+Do not hide a pitch inside a check-in. Silence does not establish motives,
+consent or an invitation to keep trying. Do not pursue manual or automated
+retries, switch channels, or recruit another person to bypass silence or a
+boundary. When permission or relevance is uncertain, wait or do not contact.
+Use a different channel only when current permission covers that channel and
+purpose; it is not a way to obtain a response after refusal.
 
 ## Consent is current and specific
 
@@ -93,6 +100,10 @@ across the team and any assisting tools.
 
 Consent can change. Stewardship includes noticing withdrawal, correcting shared
 understanding, and preventing a stale copy from restoring an expired permission.
+
+Power differences can make refusal costly even when an invitation sounds
+optional. A manager, sponsor or senior colleague must not tie work, credit,
+support or opportunity to personal access, disclosure or reciprocity.
 
 ## Keep only necessary context
 

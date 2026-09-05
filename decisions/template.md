@@ -3,7 +3,7 @@
 - **Status:** Proposed | Accepted | Superseded | Rejected
 - **Date:** YYYY-MM-DD
 - **Decision owner:** Name or role
-- **Release:** Planned semantic version or not scheduled
+- **Release:** Planned calendar edition or not scheduled
 
 ## Context
 

@@ -21,7 +21,7 @@ reporting.
    boundaries](framework/principles-and-boundaries.md), and [practice
    guide](framework/practice-guide.md).
 2. Read the exact adopted [Open Framework Commons
-   v1.1.0](https://github.com/BradGroux/open-framework-commons/tree/v1.1.0).
+   v2026.09.05](https://github.com/BradGroux/open-framework-commons/tree/v2026.09.05).
 3. Decide whether the need is editorial, canonical, governance, an example,
    research, or a review record.
 4. Explain the reader problem, evidence, alternatives, risks, limitations, and
@@ -103,3 +103,5 @@ verify:
 
 A successful documentation check does not prove real-world relationship quality
 or certify an implementation.
+
+For edition preparation and publication, follow [release operations](project/releases/releasing.md).
