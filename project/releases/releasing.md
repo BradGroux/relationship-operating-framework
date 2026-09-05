@@ -69,7 +69,8 @@ gh release create "$release_tag" --repo BradGroux/relationship-operating-framewo
 
 Verify author, exact body, final state, tag object and peeled commit through API
 and Git readback; check hosted main/tag runs and closed issue dispositions.
-No release assets are required. Record final commit and release URL in the PR
+The committed publication body uses tag-qualified repository URLs so its links
+also resolve on the GitHub release page. No release assets are required. Record final commit and release URL in the PR
 or issue evidence without changing the release tree after review.
 
 ## Historical verification and failure

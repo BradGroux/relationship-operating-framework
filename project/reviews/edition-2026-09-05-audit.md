@@ -2,7 +2,7 @@
 
 - **Date:** 2026-09-05
 - **Baseline:** `afa195b576cfd35b219e9d905cd013af6fc265b7`
-- **Status:** Remediated candidate; independent review and publication gates pending
+- **Status:** Remediated and independently reviewed content; final tree and publication gates remain separate
 - **Scope:** Entire tracked repository, prior reviews/decisions, Git history,
   releases, closed issues and relevant PR discussion; live main and identity
 
@@ -91,3 +91,44 @@ power differences and record burden, remains a research opportunity owned by
 the steward, to revisit when authorized evidence exists. A dependency lock and
 stronger hosted protection policy are optional repository improvements, not
 imported Commons obligations or evidence that current content is ineffective.
+
+## Independent review and verification
+
+Initial exact candidate: `0a24b40bfc3d27cc166814e902864424d448ea49`.
+
+| Independent role/perspective | Result | Disposition |
+|---|---|---|
+| Content: practical application | GO, no findings | Fictional adverse cases support bounded decisions; no field claim. |
+| Content: adversarial misuse | GO, no findings | No-contact, no earned help, privacy, capacity and human authority preserved. |
+| Content: canonical coherence/specification | GO, no findings | Commons adoption and independent product boundaries agree. |
+| Standards and public hygiene | One Material publication-navigation finding | Release notes used repository-relative links despite verbatim publication. Corrected to immutable tag-qualified URLs; affected review reruns before merge. |
+
+The content reviewer checked help and power (practice guide Ask for help),
+conflicting obligations and closure (Honor commitments; Repair or close),
+disputed notes (Preserve truthful continuity), silence (principles
+Re-engagement), handoff consent (example 02), and authority/proposals (charter).
+The standards reviewer independently ran repository validation, the ten
+regression cases and the redacted history scan. It inspected tracked public
+content, scripts, CI, history preservation and release operations.
+
+Maintainer verification completed on the corrected working candidate:
+
+- 47 Markdown files passed links, fragments, indexed targets and Mermaid fences.
+- Ten isolated regression tests passed, including invalid fragments, untracked
+  and symlink targets, impossible dates, zero correction suffix and stale metadata.
+- All nine diagrams in seven documents compiled; the changed handoff diagram
+  received rendered browser inspection and its current-permission text is legible.
+- Redacted full-history and candidate-archive secret scans passed.
+- The resolved development diagram dependency audit reported zero known
+  vulnerabilities; this is time-specific and does not lock future installations.
+- Citation structure, calendar/date consistency, shell syntax and diff checks passed.
+- Historical tag/readback gates passed for v1.0.0 and v1.1.0 with the stated
+  unavailable-body-source limits. Historical changelog/governance blocks, prior
+  review files, release notes and Decision 0001 are unchanged.
+- Issue bodies, labels and authors were read back as the intended content,
+  with BradGroux identity and no available GitHub App attribution.
+
+The complete head, including this report and the release-link correction,
+requires final independent follow-up. Final review, hosted checks, merged-tree
+equality, annotated tag and published-body readback are recorded in the linked
+PR and release operation evidence. This report does not preclaim publication.
